@@ -1,0 +1,6 @@
+===The most important thing needed for this to work==========
+Python 3.9 or higher
+===Modules required for this program to work properly==========
+tkinter
+PySimpleGui
+(Install these using pip for python)
