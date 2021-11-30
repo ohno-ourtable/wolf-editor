@@ -1,0 +1,14 @@
+How to create a debian package from this repository
+
+1. Create a directory outside of this folder named wolf
+2. Create a folder inside wolf named WEDIT
+3. Copy everything inside this folder to WEDIT inside wolf
+4. Move the DEBIAN folder to the root of wolf
+5. Create three folders: usr, share, applications
+6. Copy WolfEditor.desktop from WEDIT to applications folder
+7. Place share inside usr, then place applications inside share 
+8. CD outside of wolf and run ``dpkg-deb --build wolf``
+
+===TO INSTALL============
+Run ``sudo dpkg -i wolf.deb``
+IF YOU GET ERROR, RUN ``sudo apt install -f``

@@ -1,0 +1,10 @@
+Package: wolf-editor
+Depends: python3, python3-pip
+Version: 1.6
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: Focal Fossa <github.com/focalfossa0997>
+Description: Desktop version of Wolf Editor.
