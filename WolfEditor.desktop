@@ -1,8 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Version=1.6
-Type=Application
-Terminal=false
-Exec=python3 /wedit/WolfEdit.py
-Icon=/wedit/icon.png
-Name=Wolf Editor
